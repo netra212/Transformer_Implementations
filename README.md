@@ -22,6 +22,8 @@
 
 2. Input Embedding
 
+![Input Embedding ](InputEmbedding.png)
+
 Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
      ↓              ↓              ↓              ↓
    "Hello"     →    [15]      →   Linear     →  [0.2, 0.8, ...]
@@ -35,6 +37,7 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
         │  Embedding Matrix: [V × d_model]                         │
         │  Scale Factor: √d_model                                  │
         └──────────────────────────────────────────────────────────┘
+
 
 ---
 
@@ -52,7 +55,6 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
                                 ↓
             Input Embeddings + Positional Encodings = Final Input
 
-![Input Embedding ](InputEmbedding.png)
 --- 
 
 
