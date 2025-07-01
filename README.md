@@ -35,6 +35,8 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
         │  Embedding Matrix: [V × d_model]                         │
         │  Scale Factor: √d_model                                  │
         └──────────────────────────────────────────────────────────┘
+        
+![Input Embedding](InputEmbedding.png)
 
 ---
 
