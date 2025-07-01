@@ -1,6 +1,8 @@
 
 ### Transformer Implementation Workflow - Diagrammatic Guide
 
+![Transformer Architecture ](/Users/user/Desktop/Transformer_Implementations/Transformers.png)
+
 --- 
 1. Import Important Libraries
 
@@ -488,16 +490,12 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
 #### Architecture Summary
 
 Input → Embedding → Positional Encoding → Encoder Stack → Decoder Stack → Output
-
   ↑                                           ↑                ↑
   │                                           │                │
 
 Token                                    Self-Attention   Cross-Attention
-
 IDs                                     + Feed Forward   + Feed Forward
-
                                         + Residual       + Residual
-                                        
                                         + Layer Norm     + Layer Norm
                                         
 This diagrammatic workflow provides a visual representation of the complete Transformer implementation process, making it easy to understand the flow and relationships between different components.
