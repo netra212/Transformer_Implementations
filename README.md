@@ -2,6 +2,7 @@
 ### Transformer Implementation Workflow - Diagrammatic Guide
 
 ![Transformer Architecture ](Transformers.png)
+![Input Embedding ](InputEmbedding.png)
 
 --- 
 1. Import Important Libraries
@@ -21,8 +22,6 @@
 
 
 2. Input Embedding
-
-![Input Embedding ](InputEmbedding.png)
 
 Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
      ↓              ↓              ↓              ↓
