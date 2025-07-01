@@ -1,7 +1,7 @@
 
 ### Transformer Implementation Workflow - Diagrammatic Guide
 
-![Transformer Architecture ](/Users/user/Desktop/Transformer_Implementations/Transformers.png)
+![Transformer Architecture ](Transformers.png)
 
 --- 
 1. Import Important Libraries
