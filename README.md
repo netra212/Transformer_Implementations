@@ -37,7 +37,6 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
         └──────────────────────────────────────────────────────────┘
 
 ---
-![Input Embedding](InputEmbedding.png)
 
 
 3. Positional Encoding
@@ -52,6 +51,8 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
         └─────────────────────────────────────────────────────────┘
                                 ↓
             Input Embeddings + Positional Encodings = Final Input
+
+![Input Embedding ](InputEmbedding.png)
 --- 
 
 
