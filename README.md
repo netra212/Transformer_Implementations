@@ -36,7 +36,9 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
 
 ---
 
+
 3. Positional Encoding
+
         ┌─────────────────────────────────────────────────────────┐
         │                Positional Encoding                      │
         ├─────────────────────────────────────────────────────────┤
@@ -49,7 +51,9 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
             Input Embeddings + Positional Encodings = Final Input
 --- 
 
+
 4. Multi-Head Attention
+
                             Multi-Head Attention
             ┌─────────────────────────────────────────────────────┐
             │                                                     │
@@ -72,7 +76,9 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
 
 ---
 
+
 5. Add and Norm (Layer Normalization)
+
             ┌─────────────────────────────────────────────┐
             │            Add & Norm Pattern               │
             ├─────────────────────────────────────────────┤
@@ -96,7 +102,9 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
 
 ---
 
+
 6. Feed Forward Network
+
             ┌─────────────────────────────────────────────┐
             │           Feed Forward Network              │
             ├─────────────────────────────────────────────┤
@@ -122,6 +130,7 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
 
 
 7. Residual Connection
+
             ┌─────────────────────────────────────────────┐
             │            Residual Connection              │
             ├─────────────────────────────────────────────┤
@@ -142,7 +151,9 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
 
 ---
 
+
 8. Encoder Block
+
             ┌─────────────────────────────────────────────────────────┐
             │                    Encoder Block                        │
             ├─────────────────────────────────────────────────────────┤
@@ -170,6 +181,7 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
 
 
 9. Decoder Block
+
             ┌─────────────────────────────────────────────────────────┐
             │                    Decoder Block                        │
             ├─────────────────────────────────────────────────────────┤
@@ -203,6 +215,7 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
 
 
 10. Building a Transformer
+
             ┌─────────────────────────────────────────────────────────────────┐
             │                      Complete Transformer                       │
             ├─────────────────────────────────────────────────────────────────┤
@@ -249,6 +262,7 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
 ---
 
 11. Test Our Transformer
+
             ┌─────────────────────────────────────────────┐
             │              Testing Pipeline               │
             ├─────────────────────────────────────────────┤
@@ -307,6 +321,7 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
 ---
 
 13. Loading Dataset
+
             ┌─────────────────────────────────────────────────────────┐
             │                   Dataset Pipeline                      │
             ├─────────────────────────────────────────────────────────┤
@@ -342,7 +357,9 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
 
 ---
 
+
 14. Validation Loop
+
             ┌─────────────────────────────────────────────────────────┐
             │                  Validation Process                     │
             ├─────────────────────────────────────────────────────────┤
@@ -380,7 +397,9 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
 
 ---
 
+
 15. Training Loop
+
             ┌─────────────────────────────────────────────────────────┐
             │                    Training Process                     │
             ├─────────────────────────────────────────────────────────┤
@@ -429,6 +448,7 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
 ---
 
 16. Conclusion
+
             ┌─────────────────────────────────────────────────────────┐
             │               Transformer Implementation                │
             │                    Key Takeaways                        │
@@ -464,6 +484,7 @@ Input Tokens → [Token IDs] → Embedding Layer → Dense Vectors
             └─────────────────────────────────────────────────────────┘
 
 ---
+
 #### Architecture Summary
 
 Input → Embedding → Positional Encoding → Encoder Stack → Decoder Stack → Output
